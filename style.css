@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* outline-style: dotted; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* gap: 12px; */
+    display: flex;
+    padding: 32px;
+    background-color: white;
+    color: rgb(13, 6, 51);
+    background-color: rgb(122, 122, 226);
+}
+
+nav {
+    /* outline-style: double; */
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.header img {
+    /* outline-style: dashed; */
+    width: 40px;
+}
+
+header {
+    /* outline-style: dashed; */
+    color: antiquewhite;
+    font-size: xx-large;
+}
+
+
+.links {
+    /* outline-style: dashed; */
+    /* background-color: yellowgreen; */
+    /* gap: 4px; */
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: end;
+    padding: 8px 12px;
+
+}
+
+a {
+    /* color: blue; */
+    /* gap: 4px; */
+    background-color: burlywood;
+    padding: 3px;
+    outline: thick outset ;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px;
+}
+
+.banner {
+    /* outline-style: dashed; */
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 32px; */
+    margin: 0px 32px;
+}
+
+.banner .greeting {
+    /* outline-style: double; */
+    align-content: center;
+}
+
+.banner .container {
+    /* outline-style: solid; */
+}
+
+.banner img {
+    width: 400px;
+}
+
+.cards {
+    outline-style: double;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards img {
+    display: block;
+    width: 300px;
+    height: min-content;
+    /* object-fit: contain; */
+    /* align-items: center; */
+    padding: 10px;
+}
