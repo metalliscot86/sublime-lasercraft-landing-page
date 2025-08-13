@@ -115,7 +115,7 @@ a {
     /* align-items: center; */
     /* justify-content: center; */
     display: flex;
-    width: 500px;
+    width: 400px;
     height: min-content;
     padding: 10px;
 }
